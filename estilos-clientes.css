@@ -1,0 +1,367 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kanit&family=Roboto:ital@1&display=swap');
+
+
+*{margin: 0;
+    padding: 0;
+   
+}
+
+
+/* Encabezado  */
+
+header{
+    min-height: 150px;
+    font-size: 16px;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img{
+    height: 150px;
+    margin-right: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color:black;
+}
+
+nav{
+    padding: 20px;
+    border: 1px solid black;
+   
+
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav a:hover{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.hide{
+    font-size: 22px;
+    padding: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+/* footer */
+
+footer{
+    background-color: lightgreen;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+.redes{
+   width: 100%;
+   height: auto;
+   text-align: center;
+   font-size: 30px;
+   letter-spacing: 10px;
+   color: blue;
+   text-shadow: 0 0 5px #000;
+   padding-top: 20px;
+}
+ 
+.redes a:hover{
+   color: darkred;
+}
+.dir{
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+
+  /* main clientes */
+
+.titindex{
+background-color: blue;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+padding: 0;
+margin: 0;
+color: white;
+text-shadow: 0px 0px 5px black;
+font-size: 27px;
+padding: 10px;
+}
+
+.clientes-princ{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.nleft1{
+    background-image: url(/multimedia/photo14.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+  
+}
+
+.nright1{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    padding: 30px;
+}
+
+.nright1 .clientes li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    
+}
+
+.nleft2{
+    background-image: url(/multimedia/photo15.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+  
+}
+
+.nright2{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    padding: 30px;
+}
+
+.nright2 .clientes li{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+.frase{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+
+}
+
+
+
+@media only screen and (max-width: 479px){
+
+
+    header{
+        flex-direction: column;
+    }
+
+    .logo img{
+        font-size: 15px;
+        height: 120px;
+        margin-right: 10px;
+    }
+    
+    header a h1{
+        font-size: 18px; 
+    }
+
+    nav a{
+        width: 100%;
+        display: none;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hide{
+        display: block;
+        font-size: 30px;
+    }
+
+
+    .clientes-princ{
+        width: 100%;
+        height: 550px;
+        display: block;
+       
+    }
+    .nright1{
+        width: 100%;
+        height: auto;
+    }
+    .nleft1{
+        width: 100%;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 40px;
+       
+    }
+
+    .nright2{
+        width: 100%;
+        height: auto;
+    }
+    .nleft2{
+        width: 100%;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 40px;
+       
+       
+    }
+
+    .nright1 ul li{
+        font-size: 10px;
+    }
+
+    .nright2 ul li{
+        font-size: 30px;
+    }
+
+    
+.frase{
+    margin: auto;
+    padding-top: 40px;
+    
+
+}
+    
+.frase h2{
+    font-size: 14px;
+}
+    
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+  
+    nav a{
+        width: 100%;
+        display: none;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hide{
+        display: block;
+        font-size: 30px;
+    }
+
+    
+    .clientes-princ{
+        width: 100%;
+        height: 550px;
+        display: block;
+       
+    }
+    .nright1{
+        width: 100%;
+        height: auto;
+    }
+    .nleft1{
+        width: 100%;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 40px;
+       
+    }
+
+    .nright2{
+        width: 100%;
+        height: auto;
+    }
+    .nleft2{
+        width: 100%;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 40px;
+       
+    }
+
+    .nright1 ul li{
+        font-size: 10px;
+    }
+
+    .nright2 ul li{
+        font-size: 30px;
+    }
+
+    .clientes-princ{
+        width: 100%;
+        height: 550px;
+        display: block;
+       
+    }
+    .nright1{
+        width: 100%;
+        height: auto;
+    }
+    .nleft1{
+        width: 100%;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 40px;
+       
+    }
+
+    .nright2{
+        width: 100%;
+        height: auto;
+    }
+    .nleft2{
+        width: 100%;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 40px;
+       
+       
+    }
+
+    .nright1 ul li{
+        font-size: 10px;
+    }
+
+    .nright2 ul li{
+        font-size: 30px;
+    }
+
+    
+.frase{
+    background-color: white;
+    margin: auto;
+
+}
+
+.frase h2{
+    font-size: 14px;
+}
+
+}
+
+    
+
+
+
+    

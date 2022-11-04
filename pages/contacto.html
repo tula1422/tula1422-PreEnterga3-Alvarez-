@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../estilos-contacto.css">
+    <title>Moldemat SRL</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Kanit&family=Roboto:ital@1&display=swap');
+    </style>
+
+</head>
+<body>
+    <header>
+        <a href="empresa.html" class="logo">
+            <img src="../multimedia/logomm2.png" alt="logo1"> 
+            <h1 class="nombre-empresa">Moldemat SRL</h1> 
+        </a>
+    </header>
+    <nav>
+              <a href="../index.html">Home</a>
+              <a href="empresa.html">Empresa</a>
+              <a href="procesos.html">Procesos</a>
+              <a href="productos.html">Productos</a>
+              <a href="clientes.html">Clientes</a>
+              <a href="contacto.html">Contacto</a> 
+              
+             <div class="hide">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+              </div>
+    </nav>
+    <main>
+        <div class="contacto">
+            <div class="contactosa"> 
+        <h1>Contacto</h1>
+        <br>
+        <form action="enviar.php" method="post" enctype="text/plain" netlify>
+        <label for="nombre">Nombre</label>
+        <input type="text" placeholder="Nombre">
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" placeholder="Apellido">
+        <br>
+        <label for="email">email</label>
+        <input type="email" placeholder="xxxxxx@gmail.com">
+        <br>
+        <label for="edad">Edad</label>
+        <input type="number" placeholder="Edad">
+        <br>
+        <label for="Provincia">Provincia:</label>
+        <select name="Provincia" id="letra"> 
+        <option value="bs as">Buenos Aires</option>
+        <option value="caba">CABA</option>
+        <option value="otra">Otra</option>
+        </select>
+        <br>
+        <br>
+        <label for="genero">Genero:</label>
+        <br>
+        Masculino
+        <input type="radio" name="sexo" value="masculino">
+        Femenino
+        <input type="radio" name="sexo" value="femenino">
+        Otro
+        <input type="radio" name="sexo" value="Otro">
+        <br>
+        <br>
+        <label for="mensaje">Comentarios:</label>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe"></textarea>
+        <br>
+        <input type="submit">
+        <input type="reset" value="borrar">
+        <input type="button" value="sin acción">
+        </form>
+        </div>
+        <br>
+        <br>
+        <div class="mapa">
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=moldemat srl&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://piratebay-proxys.com/">Pirate proxy</a></div></div>
+        </div>
+    </main>
+    <footer>
+        <br>
+        <div class="redes">
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    <br>
+        <h5 class="dir">Administración Central:     Las Piedras 2804  /06 </h5>
+        <h5 class="dir">(C.P. 1826) Lanús Este - Buenos Aires - Argentina </h5>
+        <h5 class="dir">Telefax: (54-011) 4246-2884/ 3089 - e-mail: ironplast@sinectis.com.ar</h5>
+    </footer>
+
+    
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../menu.js"></script>
+</body>    
+</html>   
+    
+
