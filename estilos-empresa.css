@@ -118,11 +118,13 @@ footer{
     background-position: center ;
     height: 300px;
     width: 100%;
+    
 }
 .nright h3{
     text-align: center;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 20px;
+    padding-top: 15px;
 }
 .nright p{
     font-family: 'Oswald', sans-serif;
