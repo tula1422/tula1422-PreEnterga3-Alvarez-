@@ -114,7 +114,7 @@ padding: 10px;
 }
 
 .nleft1{
-    background-image: url(/multimedia/photo14.jpg);
+    background-image: url("multimedia/photo14.jpg");
     background-size: cover;
     background-position: center;
     width: 50%;
@@ -136,7 +136,7 @@ padding: 10px;
 }
 
 .nleft2{
-    background-image: url(/multimedia/photo15.jpg);
+    background-image: url("multimedia/photo15.jpg");
     background-size: cover;
     background-position: center;
     width: 50%;
