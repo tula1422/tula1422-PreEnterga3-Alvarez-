@@ -217,7 +217,7 @@ li {
 	font-size: 0;
 }
 .main1{
-    background-image: url(/multimedia/photo12.jpg);
+    background-image: url(multimedia/photo12.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -225,7 +225,7 @@ li {
 }
 
 .main2{
-    background-image: url(/multimedia/photo10.jpg);
+    background-image: url(multimedia/photo10.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -277,7 +277,7 @@ li {
 }
 
 .nleft{
-    background-image: url(/multimedia/photo11.jpg);
+    background-image: url(multimedia/photo11.jpg);
     background-size: cover;
     background-position: center ;
     height: 100%;
@@ -318,42 +318,42 @@ li {
 }
 
 .item1{
-    background-image: url(/multimedia/photo1.jpg);
+    background-image: url(multimedia/photo1.jpg);
     background-size: cover;
     background-position: center;
 }
 .item2{
-    background-image: url(/multimedia/photo2.jpg);
+    background-image: url(multimedia/photo2.jpg);
     background-size: cover;
     background-position: center;
 }
 .item3{
-    background-image: url(/multimedia/photo3.jpg);
+    background-image: url(multimedia/photo3.jpg);
     background-size: cover;
     background-position: center;
 }
 .item4{
-    background-image: url(/multimedia/photo5.jpg);
+    background-image: url(multimedia/photo5.jpg);
     background-size: cover;
     background-position: center;
 }
 .item5{
-    background-image: url(/multimedia/photo6.jpg);
+    background-image: url(multimedia/photo6.jpg);
     background-size: cover;
     background-position: center;
 }
 .item6{
-    background-image: url(/multimedia/photo7.jpg);
+    background-image: url(multimedia/photo7.jpg);
     background-size: cover;
     background-position: center;
 }
 .item7{
-    background-image: url(/multimedia/photo8.jpg);
+    background-image: url(multimedia/photo8.jpg);
     background-size: cover;
     background-position: center;
 }
 .item8{
-    background-image: url(/multimedia/photo9.jpg);
+    background-image: url(multimedia/photo9.jpg);
     background-size: cover;
     background-position: center;
 }
