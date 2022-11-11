@@ -192,7 +192,16 @@ h1 {
     }
 }
 
-
+.frase {
+  color: blue;
+  font-size: 40px;
+  position: absolute;
+  bottom: -100px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  border: 2px solid white;
+}
 .gallery {
 	padding: 1rem;
 	display: grid;
